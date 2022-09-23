@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome To User Registration Problem Statement for Regex Validation");
+            Validation validation = new Validation();
+            Console.WriteLine("Enter The First Name: ");
+            string firstName = Console.ReadLine();
+            validation.FirstName(firstName);
         }
     }
 }
